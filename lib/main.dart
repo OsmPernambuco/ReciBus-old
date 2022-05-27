@@ -19,7 +19,7 @@ void main() async {
           otpGraphqlEndpoint:
               "https://br-recife.api.trufi.app:8300/otp/graphql",
           mapConfiguration: MapConfiguration(
-            center: LatLng(-17.392600, -66.158787),
+            center: LatLng(-8.0606, -34.8878),
           ),
           searchAssetPath: "",
           photonUrl: "https://br-recife.api.trufi.app:8300/photon",
