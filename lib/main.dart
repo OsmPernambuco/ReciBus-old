@@ -16,8 +16,7 @@ void main() async {
       blocProviders: [
         ...DefaultValues.blocProviders(
           otpEndpoint: "https://br-recife.api.trufi.app:8300/otp",
-          otpGraphqlEndpoint:
-              "https://br-recife.api.trufi.app:8300/otp/graphql",
+          otpGraphqlEndpoint: "",
           mapConfiguration: MapConfiguration(
             center: LatLng(-8.0606, -34.8878),
           ),
