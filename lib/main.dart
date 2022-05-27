@@ -16,11 +16,12 @@ void main() async {
       blocProviders: [
         ...DefaultValues.blocProviders(
           otpEndpoint: "https://br-recife.api.trufi.app:8300/otp",
-          otpGraphqlEndpoint: "https://br-recife.api.trufi.app:8300/otp/graphql",
+          otpGraphqlEndpoint:
+              "https://br-recife.api.trufi.app:8300/otp/graphql",
           mapConfiguration: MapConfiguration(
             center: LatLng(-17.392600, -66.158787),
           ),
-          searchAssetPath: "assets/data/search.json",
+          searchAssetPath: "",
           photonUrl: "https://br-recife.api.trufi.app:8300/photon",
         ),
       ],
